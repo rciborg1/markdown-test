@@ -12,7 +12,7 @@ fiabilité, afin de pouvoir innover et fournir des produits aussi rapidement que
 
 # Contexte
 
-DevOps est un un etat d'esprit mais son adoption par les organisations est énormément compliquée 
+DevOps est un etat d'esprit mais son adoption par les organisations est énormément compliquée 
 en raison des grandes différences entre la manière dont DevOps promeut le travail et la manière 
 traditionnelle dont la plupart des entreprises de logiciels travaillent depuis des décennies. 
 C’est dans ce contexte que cet article a été écrit afin d'examiner les problèmes et les facteurs 
@@ -37,12 +37,13 @@ des responsables de produits, des développeurs et des gestionnaires d’infrast
 
 L’étude s’accentue principalement sur deux questions de recherche auxquelles l’analyse de celle-ci doit répondre. 
 
-## Question 1 : Quel problème les entreprises cherchent elles à résoudre en implémentant Devops 
+## Question 1 : Quels problèmes les entreprises cherchent elles à résoudre en implémentant Devops ?
 
 Des questions ont été posées aux entreprises dans le but de savoir les problématiques auxquelles elles sont confrontées. 
 La figure ci-dessous indique le nombre de fois où celle-ci apparaissaient dans les entretiens. 
 
-
+<img title="Question 1" alt="Question 1" src="/src/1.png">
+<img title="Question 2" alt="Question 2" src="/src/2.png">
 
 Les problèmes les plus pertinents qui Les problèmes qui motivent une transition vers DevOps concernaient le besoin 
 d'être plus agile, rapide et les demandes ou tendances de l'entreprise et/ou du marché. 
@@ -60,11 +61,11 @@ DevOps il est évident d’obtenir un logiciel de meilleure qualité en moins de
 
 La figure montre les résultats et avantages que les entreprises espèrent obtenir grâce à l'adoption de DevOps.
 
-Photo 2 ici
+<img title="Résultat 3" alt="Résultat 3" src="/src/3.png">
 
-Pour résoudre les problématiques citées plus haut, les résultats communs à toutes les entreprises concernent 
-les délais de livraison plus rapide des produits, l’obtention d’un logiciel de meilleure qualité et l’automatisation 
-des processus augmentant l’efficacité, l’optimisation et la productivité des équipes. 
+Les résultats communs à toutes les entreprises sont les délais de livraison plus rapide des produits, 
+l’obtention d’un logiciel de meilleure qualité et l’automatisation des processus augmentant l’efficacité, 
+l’optimisation et la productivité des équipes.  
 
 D’abord, Les organisations ont déclaré que le bénéfice le plus attendu lorsqu'elles ont initié leur transformation 
 DevOps était l'accélération de la mise sur le marché en réduisant les délais de développement, de test, d'assurance 
@@ -83,7 +84,7 @@ DevOps résout certaines problématiques des entreprises mais cette philosophie 
 et certaines personnes pensent le contraire. 
 
 Tel est le cas de Lee Briggs, ingénieur logiciel chez Pulumi, une société d'infrastructure en tant que code, 
-qui soutient que l'approche DevOps est un échec1. Selon lui, DevOps représente tout simplement des opérationnels 
+qui soutient que l'approche DevOps est un échec[1]. Selon lui, DevOps représente tout simplement des opérationnels 
 qui essaient de convaincre les développeurs de faire les choses à leur manière. En effet, la quasi-totalité de 
 l'outillage commercialisé sous le nom de "DevOps tooling" est axée sur les opérations. 
 C’est dans ce sens par exemple qu’il propose de passer à une approche qu’il qualifie de SoftOps 
@@ -109,3 +110,7 @@ En outre, l'adoption de DevOps peut souvent être soumis à certains contraintes
 
 
 # Conclusion
+
+# Bibliographies
+
+
