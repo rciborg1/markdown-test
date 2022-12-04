@@ -108,9 +108,25 @@ En outre, l'adoption de DevOps peut souvent être soumis à certains contraintes
   supplémentaires et l'embauche de professionnels DevOps expérimentés, les entreprises peuvent 
   constater une augmentation significative de leurs dépenses informatiques. 
 
-
 # Conclusion
 
-# Bibliographies
+Afin de rendre le voyage vers le cloud fluide et efficace, les entreprises technologiques devraient 
+adopter les principes et les pratiques DevOps, même s’il est parfois très difficile d’implémenter 
+toutes ces pratiques, nous pouvons citer ici par exemple le cas du passage à des architectures microservices 
+alors que les applications ont été conçues depuis des années avec des architectures monolithes. 
+On peut adopter les autres bonnes pratiques comme l’implémentation des tests unitaires dans un système 
+d’intégration continue afin que les équipes puissent intégrer leur modification plus paisiblement pour 
+ce type d’architecture monolithe et leur dégager plus de temps pour leurs tâches supplémentaires. 
 
+DevOps vise à créer une culture et un environnement dans lesquels la conception, les tests et la diffusion 
+de logiciels peuvent être réalisés rapidement, fréquemment et efficacement. 
 
+Aujourd’hui le mur entre développements et opérations s’écoule progressivement car finalement, ces deux pôles œuvrent pour un objectif commun.
+
+# Bibliographie
+
+1 : https://alm.developpez.com/actu/334699/DevOps-est-il-un-echec-Un-ingenieur-logiciel-de-Pulumi-pense-que-c-est-le-cas-et-propose-de-passer-a-une-nouvelle-approche-appelee-SoftOps-pour-resoudre-les-problemes-que-DevOps-n-a-pu-resoudre.
+
+2 : https://www.orientsoftware.com/blog/advantages-and-disadvantages-of-devops/
+
+3 :  https://blog.ippon.fr/2020/07/29/le-devops-explique-a-mes-parents/ 
