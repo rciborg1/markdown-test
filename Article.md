@@ -1,14 +1,19 @@
 # Introduction
 
-Le DevOps est un mouvement en ingénierie informatique et une pratique technique visant à 
-l'unification du développement logiciel (DEV) et de l'administration des infrastructures 
-informatiques (OPS), notamment l'administration système. 
+Le DevOps est un mouvement en ingénierie informatique et une pratique technique visant à l'unification 
+du développement logiciel (DEV) et de l'administration des infrastructures informatiques (OPS), 
+notamment l'administration système. 
 
-Il correspond donc à l'union des personnes, processus, et produits permettant de mettre en 
-place du Continuous Delivery pour fournir de la valeur aux utilisateurs finaux. Cela implique 
-de créer une culture et un environnement dans lesquels le buidling, les tests, et les déploiements 
-de versions logiciels peuvent être effectués rapidement, avec une fréquence plus élevée, plus de 
-fiabilité, afin de pouvoir innover et fournir des produits aussi rapidement que dans une Start-Up. 
+Il correspond donc à l'union des personnes, processus, et produits permettant de mettre en place du Continuous 
+Delivery pour fournir de la valeur aux utilisateurs finaux. Cela implique de créer une culture et 
+un environnement dans lesquels le buidling, les tests, et les déploiements de versions logiciels peuvent être 
+effectués rapidement, avec une fréquence plus élevée, plus de fiabilité, afin de pouvoir innover et fournir 
+des produits aussi rapidement que dans une Start-Up. 
+
+Devops intègre plusieurs outils par exemple Gitlab qui permet au DevOps de déposer son code source sur la 
+plateforme collaborative du même nom. Objectif : permettre à plusieurs utilisateurs de travailler sur un projet 
+commun et uniformiser le résultat final. Des options de déploiement continu, de monitoring et de sécurité 
+applicative sont disponibles pour couvrir l’ensemble du travail du DevOps. 
 
 # Contexte
 
