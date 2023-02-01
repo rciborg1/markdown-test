@@ -32,7 +32,7 @@ whois site
 
 
 - google.com
-<img title="google.com's registrar" alt="google.com's registra" src="/src/google.com/1.1.3.png">
+<img title="google.com's registrar" alt="google.com's registrar" src="/src/google.com/1.1.3.png">
 <img title="google.com's host" alt="google.com's host" src="/src/google.com/1.1.4.png">
 
 ## 1.2 OSINT
@@ -61,23 +61,36 @@ echo | openssl s_client -servername site -connect site:443 2>/dev/null | openssl
 ### 3 : Google search engine request to find the public facing PDF files sites
 
 - keikis.noip.me
+<img title="keikis.noip.me request" alt="keikis.noip.me request" src="/src/keikis.noip.me/1.2.3.png">
 
 - univ-rennes1.fr
 
 - google.com
+<img title="google.com request" alt="google.com request" src="/src/google.com/1.2.3.png">
 
 ### 4 : List all of the subdomains for sites
+We found subdomains by the following command
+```
+theHarvester -d site -b all
+```
+As there are many of them, we have captured only a part.
 
 - keikis.noip.me
+<img title="subdomains of keikis.noip.me" alt="subdomains of keikis.noip.me" src="/src/keikis.noip.me/1.2.4.png">
 
 - univ-rennes1.fr
 
 - google.com
+<img title="subdomains of google.com" alt="subdomains of google.com" src="/src/google.com/1.2.4.png">
 
 ### 5 : Are the certificates issued by the same entities
 
+Yes, all certificates are the same, as shown in some of the sub-domains tested.
+
 - keikis.noip.me
+<img title="keikis.noip.me" alt="keikis.noip.me" src="/src/keikis.noip.me/1.2.5.png">
 
 - univ-rennes1.fr
 
 - google.com
+<img title="google.come" alt="google.com" src="/src/google.com/1.2.5.png">
