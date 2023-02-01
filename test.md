@@ -94,3 +94,45 @@ Yes, all certificates are the same, as shown in some of the sub-domains tested.
 
 - google.com
 <img title="google.come" alt="google.com" src="/src/google.com/1.2.5.png">
+
+## 1.3 Mapping
+
+### 1 : Exposed services by the domain
+We used the following command
+```
+nmap site
+```
+- keikis.noip.me
+<img title="noip.me’s opened services" alt="noip.me’s opened services" src="/src/keikis.noip.me/1.3.1.png">
+
+- univ-rennes1.fr
+
+- google.com
+<img title="google.com’s opened services" alt="google.com’s opened services" src="/src/google.com/1.3.1.png">
+
+### 2 : Server-side technology or Framework used to serve domains
+We used the following command
+```
+curl -I site
+```
+- keikis.noip.me
+<img title="noip.me’s Server-side technologies" alt="noip.me’s Server-side technologies" src="/src/keikis.noip.me/1.3.2.png">
+
+- univ-rennes1.fr
+
+- google.com
+<img title="google.com’s Server-side technologies" alt="google.com’s Server-side technologies" src="/src/google.com/1.3.2.png">
+
+### 2 : Operating system by system
+We used the following command
+```
+command
+```
+- keikis.noip.me
+
+- univ-rennes1.fr
+
+- google.com
+
+# 2. Root-me.org
+
