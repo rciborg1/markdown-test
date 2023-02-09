@@ -118,3 +118,43 @@ Result:
 the logic of the output is the same as the answer 2.2.2
 
 # 3. Cracking hashed passwords with hashcat
+
+To crack the passwords, we followed the following steps
+
+### 3.1. Create a file with hashed passwords
+
+We used the following echo command to create the file 
+
+```
+echo -e "5f4dcc3b5aa765d61d8327deb882cf99\ne99a18c428cb38d5f260853678922e03\n8d3533d75ae2c3966d7e0d4fcc69216b\n0d107d09f5bbe40cade3de5c71e9e9b7\n5f4dcc3b5aa765d61d8327deb882cf99" >> target_hashes.txt
+```
+
+Here is what it looks like when displayed
+
+<img title="Display hashed file" alt="Display hashed file" src="/src/3.2.png">
+
+### 3.2. Decompression of the rockyou word list
+
+The decompression was performed with the following command
+
+```
+gunzip /usr/share/wordlists/rockyou.txt.gz
+```
+
+The result
+
+<img title="Display wordlist" alt="Display wordlist" src="/src/3.0.png">
+
+### 3.3. Password cracking with MD5
+
+Here is the command used
+
+```
+hashcat -m 0 -a 0 -o cracked.txt target_hashes.txt /usr/share/wordlists/rockyou.txt
+```
+
+Here is what you get after cracking
+
+<img title="Display cracked file" alt="Display cracked file" src="/src/3.4.png">
+
+We notice that we had 5 hashes and we have 4 results, this is explained by the fact that there are two identical hashes, so the same password.
