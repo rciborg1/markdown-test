@@ -158,3 +158,15 @@ Here is what you get after cracking
 <img title="Display cracked file" alt="Display cracked file" src="/src/3.4.png">
 
 We notice that we had 5 hashes and we have 4 results, this is explained by the fact that there are two identical hashes, so the same password.
+
+### 3.4. Real password
+
+Here is the final result with the users and their passwords in clear
+
+| Id | Username | First Name | Last Name | Real Password | Hased password
+|---|---|---|---|---|---|
+| 1 | admin | admin | admin | password | 5f4dcc3b5aa765d61d8327deb882cf99
+| 2 | gordonb | Gordon | Brown | abc123 | e99a18c428cb38d5f260853678922e03
+| 3 | 1337 | Hack | Me | charley | 8d3533d75ae2c3966d7e0d4fcc69216b
+| 4 | pablo | Pablo | Picasso | letmein | 0d107d09f5bbe40cade3de5c71e9e9b7
+| 5 | smithy | Bob | Smith | password | 5f4dcc3b5aa765d61d8327deb882cf99
