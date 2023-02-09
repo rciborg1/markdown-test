@@ -14,6 +14,6 @@ When we put the following command in the field :
 
 The query is executed and the following result is obtained:
 
-<img title="version of the database" alt="version of the database" src="/src/2.2.png">
+<img title="version of the database" alt="version of the database" src="/src/2.2_new.png">
 
 We conclude that the database version is 10.1.26 of MariaDB
